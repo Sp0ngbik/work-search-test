@@ -1,10 +1,12 @@
 import "./App.css";
-import MainPage from "./components/mainPage/MainPage";
+// import MainPage from "./components/mainPage/MainPage";
+import ServicesPrices from "./components/servicesPrices/ServecesPrices";
 
 function App() {
   return (
     <div>
-      <MainPage />
+      {/* <MainPage /> */}
+      <ServicesPrices />
     </div>
   );
 }
