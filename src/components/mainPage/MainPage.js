@@ -3,6 +3,7 @@ import { MainPageConfig } from "./MainPageConfig";
 const MainPage = () => {
   return (
     <div>
+<<<<<<< HEAD
       <header className={style.headerMainPage}>
         <div>
           <div className={style.logoh5}>
@@ -27,6 +28,8 @@ const MainPage = () => {
           </div>
         </div>
       </header>
+=======
+>>>>>>> 111087988580d5bea88512144d8027ab74a22e0f
       <main>
         <div className={style.pageMain}>
           <div className={style.scaleCardMainPage}>
