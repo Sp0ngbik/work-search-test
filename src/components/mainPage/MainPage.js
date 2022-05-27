@@ -3,6 +3,7 @@ import { MainPageConfig } from "./MainPageConfig";
 const MainPage = () => {
   return (
     <div>
+
       <header className={style.headerMainPage}>
         <div>
           <div className={style.logoh5}>
@@ -27,6 +28,7 @@ const MainPage = () => {
           </div>
         </div>
       </header>
+
       <main>
         <div className={style.pageMain}>
           <div className={style.scaleCardMainPage}>
