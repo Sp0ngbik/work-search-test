@@ -1,13 +1,14 @@
 import "./App.css";
-//sad
-// import MainPage from "./components/mainPage/MainPage";
 import ServicesPrices from "./components/servicesPrices/ServicesPrices";
+
+
+// import { Route, Routes } from "react-router-dom";
+import InfoRoadMap from "./components/infoRoadMap/InfoRoadMap";
 
 function App() {
   return (
     <div>
-      {/* <MainPage /> */}
-      <ServicesPrices />
+      <InfoRoadMap />
     </div>
   );
 }
