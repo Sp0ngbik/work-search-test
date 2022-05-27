@@ -1,45 +1,176 @@
-*{
-    font-family: 'Montserrat Alternates'
+* {
+  font-family: "Montserrat Alternates";
 }
 
-.selectionHead{
-    margin: 80px 0 34px 0;
-    display: flex;
-    font-size: 30px;
-    justify-content: space-around;
-    height: 90px;
-    width: 100%;
-    background-color: #DB916B;
+.selectionHead {
+  margin: 80px 0 34px 0;
+  display: flex;
+  font-size: 30px;
+  justify-content: space-around;
+  height: 90px;
+  width: 100%;
+  background-color: #db916b;
 }
 //when frontend (fix with hover effect)
-.layout{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    width: 50%;
-    background-color:  #BD7048;
-    border-radius: 15px;
+.layout {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: #bd7048;
+  border-radius: 15px;
 }
-.design{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    width: 50%;
-    background-color: #DB916B;
+.design {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: #db916b;
 }
-.selectionContent{
-    display: grid;
-    grid-gap: 172px;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 132px 0 136px;
-    text-align: left;
-    justify-content: center;
+.selectionContent {
+  display: grid;
+  grid-gap: 172px;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 132px 0 136px;
+  font-size: 20px;
+  text-align: left;
+  justify-content: center;
 }
-.selectionContent h3{
-    font-weight: 400;
+.selectionContent h3 {
+  line-height: 24px;
+  font-size: 20px;
+  // margin: 0 0 26px 0;
+  font-weight: 400;
+  max-width: 522px;
 }
-.selectionContentRightBlock span{
-    font-weight: 500;
+.selectionContentLeftBlock {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.selectionContentRightBlock {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.selectionContentLeftBlock h4 {
+  margin: 26px 0 34px 0;
+}
+.selectionContentLeftBlock h5 {
+  margin: 50px 0 34px 0;
+  font-size: 20px;
+}
+.selectionContentLeftBlock ul {
+  padding: 0 0 0 35px;
+  max-width: 496px;
+}
+.selectionContentRightBlock span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.serviceCost {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.serviceCost span {
+  font-size: 30px;
+  font-weight: 500;
+  color: #bd7048;
+}
+.buttonSection {
+  display: flex;
+  justify-content: space-between;
+}
+.bucketButton {
+  display: flex;
+  border: none;
+  justify-content: center;
+  width: 182px;
+  align-items: center;
+  height: 57px;
+  border-radius: 100px;
+  background: #bd7048;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+.bucketButton img {
+  margin: 0 12px 0 0;
+}
+.moreContent {
+  border-radius: 100px;
+  background-color: #ffdbc9;
+  width: 253px;
+  font-size: 15px;
+  border: none;
+  font-weight: 600;
+  color: #bd7048;
+}
+.selectionContentRightBlock a {
+  color: #bd7048;
+}
+.selectionContentRightBlock ul {
+  padding: 0 0 0 35px;
+  max-width: 496px;
+}
+
+.selectionContentRightBlock h4 {
+  margin: 50px 0 34px 0;
+}
+.selectionContentRightBlock .rightBlockFirstChild {
+  margin: 31px 0 33px 0;
+}
+.additionalServices {
+  padding: 84px 0 0 0;
+  text-align: center;
+}
+.additionalServices h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.imageBlockAddServ {
+  display: flex;
+  margin: 88px auto 0;
+  justify-content: space-around;
+  width: 85%;
+}
+.imageBlockAddServ p {
+  font-weight: 600;
+  font-size: 20px;
+}
+.mainQuestions {
+  padding: 107px 0 0 0;
+  width: 100%;
+  text-align: center;
+}
+.mainQuestions h1 {
+  padding: 0 0 73px 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+.questionButtons {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 85%;
+}
+.questionButtons button {
+  width: 100%;
+  margin: 11px 0;
+  background: #fafafa;
+  align-items: center;
+  border-radius: 100px;
+  border: none;
+  display: flex;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 22px 0 21px 23px;
+}
+.questionButtons img {
+  margin: 0 32px 0 0;
 }
