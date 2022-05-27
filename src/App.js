@@ -1,13 +1,14 @@
 import "./App.css";
-// import MainPage from "./components/mainPage/MainPage";
+
 import ServicesPrices from "./components/servicesPrices/ServicesPrices";
+import MainPage from "./components/mainPage/MainPage";
 
 function App() {
 
   return (
     <div>
-      {/* <MainPage /> */}
       <ServicesPrices />
+      <MainPage />
     </div>
   );
 
