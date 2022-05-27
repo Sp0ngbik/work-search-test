@@ -1,17 +1,16 @@
 import "./App.css";
 
-import ServicesPrices from "./components/servicesPrices/ServicesPrices";
-import MainPage from "./components/mainPage/MainPage";
+// import ServicesPrices from "./components/servicesPrices/ServicesPrices";
+// import MainPage from "./components/mainPage/MainPage";
+// import { Route, Routes } from "react-router-dom";
+import InfoRoadMap from "./components/infoRoadMap/InfoRoadMap";
 
 function App() {
-
   return (
     <div>
-      <ServicesPrices />
-      <MainPage />
+      <InfoRoadMap />
     </div>
   );
-
 }
 
 export default App;
