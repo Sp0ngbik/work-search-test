@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { MainPageConfig } from "../mainPage/MainPageConfig";
 import style from "./style.module.scss";
-
+//привет
 const Header = () => {
   return (
     <header className={style.headerMainPage}>
