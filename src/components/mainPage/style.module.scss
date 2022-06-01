@@ -6,6 +6,13 @@
    border: 0;
 }
 
+.formStyle {
+   display: flex;
+   flex-direction: column;
+}
+input{
+   background-color: bisque;
+}
 .headerMainPage {
    display: grid;
    grid-template-columns: 0.5fr 1fr 0.5fr;

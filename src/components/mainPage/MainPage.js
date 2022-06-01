@@ -1,9 +1,30 @@
 import style from "./style.module.scss";
 import { MainPageConfig } from "./MainPageConfig";
 const MainPage = () => {
+  const refs = (form) => {
+    form.preventDefault(); //чтобы не перезагружалось после отправки
+    const userName = document.getElementById("userName").value;
+    const lastName = document.getElementById("lastName").value;
+    const age = document.getElementById("age").value;
+    console.log(`Name ${userName} Lastname ${lastName} age ${age}`);
+  };
   return (
     <div>
       <main>
+        <div>
+          <form
+            onSubmit={(form) => {
+              refs(form);
+              return false;
+            }}
+            className={style.formStyle}
+          >
+            <input type="text" id="userName"></input>
+            <input type="text" id="lastName"></input>
+            <input type="number" id="age"></input>
+            <button type="submit">yes</button>
+          </form>
+        </div>
         <div className={style.pageMain}>
           <div className={style.scaleCardMainPage}>
             <div className={style.cardMainPage}>
